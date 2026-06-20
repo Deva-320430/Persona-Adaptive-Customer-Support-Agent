@@ -1,0 +1,34 @@
+# Data Export and Privacy Requests
+
+## Self-Service Data Export
+Customers can export their own data at any time from Settings > Privacy > Export My Data. This generates a ZIP file containing all account data in JSON and CSV format, delivered via email link within 24 hours. The export link expires after 7 days for security.
+
+## What's Included in a Standard Export
+- All records owned by the account (not records owned by other team members, even if shared with this account)
+- Account settings and preferences
+- Billing history (invoices, not full payment card details)
+- Activity logs for the past 90 days only; older activity logs are not retained
+
+## Formal Data Subject Requests (GDPR / CCPA)
+Customers in the EU, UK, or California have a legal right to request a full data export, data correction, or full account deletion beyond what self-service export provides (including team-shared records and activity logs older than 90 days).
+
+These formal requests must go through privacy@example.com, not regular support, since they require identity verification and a documented legal response within the statutory deadline (30 days under GDPR, 45 days under CCPA).
+
+If a customer asks support directly for a "GDPR request" or "right to be forgotten," support should NOT attempt to process this directly. Direct the customer to privacy@example.com and log the request in the privacy request tracker so the legal deadline is recorded, even though support is not the one fulfilling it.
+
+## Account Deletion
+Self-service account deletion (Settings > Account > Delete Account) removes the account from active use immediately, but underlying data is retained for 30 days in case of accidental deletion, then permanently purged. This 30-day retention period cannot be shortened on request, including for formal deletion requests, since it is necessary to prevent irreversible accidental data loss.
+
+## Common Questions
+
+**Why is my export missing some data?**
+Self-service export only includes records the account directly owns. Records shared by a teammate, or activity older than 90 days, require a formal data subject request through privacy@example.com.
+
+**Can support delete my data immediately instead of waiting 30 days?**
+No. The 30-day retention window is a fixed safety measure and cannot be bypassed by support, even at the customer's request. This should be explained clearly rather than escalated, since no escalation path can change this policy.
+
+**My export link expired before I downloaded it**
+Request a new export from Settings > Privacy > Export My Data; a new link will be generated and emailed.
+
+## Escalation Criteria
+Escalate to the privacy team (not standard support) if: a customer threatens legal action over data handling, a customer claims their data was shared with a third party without consent, or a formal data subject request has not received any response after the statutory deadline has passed.
